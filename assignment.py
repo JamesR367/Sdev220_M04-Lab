@@ -56,4 +56,7 @@ def delete_book(id):
         return {"error" : "not found"}
     db.session.delete(book)
     db.session.commit()
-    return {"message": "yeat"}
+    return {"message": "Item deleted"}
+
+# I'm not entirely sure if this works or not I followed the video and spent the entire weekend on it but I keep running into errors and 
+# I ran into an error that I couldn't find a fix for sorry
